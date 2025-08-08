@@ -1,0 +1,35 @@
+Urgent or Threatening Language Analysis
+1. Text Extracted from Email Body
+"We noticed suspicious activity in your PayPal account.
+To restore your account access, please verify your identity immediately.
+Failure to act within 24 hours will result in account suspension."
+
+2. Identified Manipulation Techniques
+a. Urgency / Time Pressure
+
+“Failure to act within 24 hours” forces the recipient to act quickly without thinking or verifying the legitimacy of the message.
+
+Creates a false deadline that pushes users to click the malicious link.
+
+b. Threat of Negative Consequences
+
+“Your account has been restricted” and “account suspension” are threats designed to create anxiety and fear of losing access to funds.
+
+Fear-based triggers make victims more likely to follow instructions.
+
+c. Authority Impersonation
+
+Email pretends to be from PayPal Security Team, leveraging trust in a well-known brand.
+
+Recipients are more likely to comply when they believe instructions come from a legitimate authority.
+
+3. Why This Works in Phishing
+People respond faster to fear than to logic when under time pressure.
+
+The combination of a trusted brand, immediate action requirement, and threat of loss is a proven social engineering tactic.
+
+This prevents victims from performing normal safety checks like verifying the sender or inspecting the link.
+
+
+Conclusion:
+The email uses classic phishing language — urgent action, account restriction threats, and brand impersonation — to psychologically manipulate the target into clicking the malicious link without hesitation.

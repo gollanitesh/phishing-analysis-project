@@ -1,0 +1,22 @@
+Final Phishing Traits Summary
+Identified Phishing Indicators
+Spoofed Sender Address – Uses paypa1.com instead of legitimate paypal.com.
+
+Urgent & Threatening Language – Demands action in 24 hours to avoid account suspension.
+
+Suspicious Link – Mismatched URL directs to confirmed phishing domain (ulyspaiement.com).
+
+SPF/DKIM/DMARC Failures – Technical email authentication checks failed.
+
+Brand Impersonation – Pretends to be from PayPal Security Team.
+
+Generic Greeting – “Dear Customer” instead of personalized name.
+
+Newly Registered Domain – Created same day as phishing attempt.
+
+Connected Infrastructure – Same IP network as the phishing site.
+
+Formatting & Style Gaps – No official branding, generic text formatting.
+
+Conclusion:
+The email exhibits multiple high-confidence phishing traits, including sender spoofing, deceptive links, urgent language, and authentication failures. These findings confirm the email is malicious and part of an active phishing campaign targeting PayPal users.

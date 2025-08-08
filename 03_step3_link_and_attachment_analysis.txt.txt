@@ -1,0 +1,43 @@
+Link & Attachment Analysis
+Phishing Link from Email:
+
+arduino
+Copy
+Edit
+hxxps://ulyspaiement.com/secure-login
+(“hxxps” used to prevent accidental clicks)
+
+1. Link Inspection
+Domain: ulyspaiement.com
+
+Path: /secure-login
+Suggests a fake login page to steal credentials.
+
+Protocol: HTTPS — attackers often use HTTPS to look legitimate.
+
+First seen: Step 1 confirmed it’s newly registered on Aug 8, 2025.
+
+Hosting: IP in 223.29.226.x range, same as the sending mail server in Step 2.
+
+WHOIS details: Registered with NameSilo, LLC, no organization name, DNS servers from dnsowl.com (often used in malicious domains).
+
+2. Hidden Redirect Check
+Attackers sometimes hide their true phishing site behind a shortened URL (e.g., bit.ly) or redirect chain.
+
+In this case, domain is directly visible — no shorteners — but the real login form is hosted on the same domain, making it easier for users to trust.
+
+3. Attachment Analysis
+Attachments: None found in this phishing email.
+
+Many phishing emails use .html, .pdf, or .docx files containing links or embedded forms.
+
+This one relies solely on the malicious URL in the email body.
+
+4. Mismatched URL
+Visible link in the email body might be disguised as https://paypal.com/secure but actually point to https://ulyspaiement.com/secure-login.
+
+Hover-over test would reveal the mismatch.
+
+Conclusion:
+The phishing link leads directly to a fraudulent login page hosted on a newly registered domain tied to malicious hosting infrastructure. No attachments were used in this campaign, suggesting the attackers relied on link-based credential harvesting.
+

@@ -1,0 +1,64 @@
+From: "PayPal Support" <support@paypa1.com>
+To: you@example.com
+Subject: Urgent: Your account has been restricted
+Date: Fri, 8 Aug 2025 08:00:15 +0000
+Message-ID: <20250808080015.12345@mail.paypa1.com>
+
+Body:
+
+sql
+Copy
+Edit
+Dear Customer,
+
+We noticed suspicious activity in your PayPal account.  
+To restore your account access, please verify your identity immediately:  
+
+hxxps://ulyspaiement.com/secure-login
+
+Failure to act within 24 hours will result in account suspension.
+
+Thank you,  
+PayPal Security Team.
+
+
+Header Snippet (Simulated)
+vbnet
+Copy
+Edit
+Received: from unknown123.host.com (223.29.226.45) by smtp.mailserver.com
+SPF: FAIL (sender IP is not authorized to send for paypa1.com)
+DKIM: FAIL
+DMARC: FAIL
+
+
+
+Analysis of Sender Address & Headers
+1.Sender Address Spoofing
+
+Domain is paypa1.com (uses digit “1” instead of letter “l” to impersonate PayPal).This is a typosquatted domain designed to fool users.
+
+2.Urgent / Threatening Language
+
+Email demands action within 24 hours and threatens account suspension.
+Common phishing tactic to pressure the recipient into clicking quickly.
+
+3.Suspicious Link
+
+Visible text appears legitimate, but the actual URL is ulyspaiement.com — unrelated to PayPal.
+Domain was confirmed in Step 1 to be phishing and newly registered.
+
+4.SPF/DKIM/DMARC Failures
+
+SPF FAIL — IP address not authorized to send email for paypa1.com.
+DKIM FAIL — Message not cryptographically signed by PayPal’s legitimate domain.
+DMARC FAIL — Domain’s anti-spoofing policy not followed.
+
+5.IP Connection to Hosting
+
+Header shows originating IP in the same 223.29.226.x range as phishing site’s hosting network (AS213441 SLAYER-AS, GB).
+
+
+conclusion: 
+The sender address is clearly spoofed, technical authentication checks fail, and the originating server is linked to the same infrastructure hosting the phishing site. This confirms the email is fraudulent.
+

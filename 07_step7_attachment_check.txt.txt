@@ -1,0 +1,11 @@
+1. Observed
+No file attachments were present in this phishing email.
+
+2. Why Still Relevant
+Even without attachments, phishing emails can be equally dangerous through malicious links.
+
+Many phishing campaigns skip attachments to bypass email security filters, relying on URLs instead.
+
+
+Conclusion:
+This phishing attempt relies solely on a malicious link rather than infected attachments, but still poses a severe security risk.

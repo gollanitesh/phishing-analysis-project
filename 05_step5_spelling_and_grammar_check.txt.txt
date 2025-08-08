@@ -1,0 +1,41 @@
+Spelling and Grammar Check
+1. Text from Email Body
+*"We noticed suspicious activity in your PayPal account.
+To restore your account access, please verify your identity immediately:
+
+hxxps://ulyspaiement.com/secure-login
+
+Failure to act within 24 hours will result in account suspension."*
+
+2. Observations
+a. Brand Name Usage
+
+The email spells PayPal correctly in the message body, but the sender domain (paypa1.com) uses the digit “1” instead of the letter “l” — a form of typosquatting.
+
+This is a deliberate misspelling designed to evade detection and trick the reader.
+
+b. Grammar & Formatting
+
+The grammar is mostly correct, but formatting is simplistic — no branding, official logo, or proper PayPal signature block.
+
+Phishing emails often skip corporate style guides to speed deployment.
+
+c. Punctuation
+
+Inconsistent spacing and abrupt line breaks (e.g., colon after “immediately” followed by a blank line) indicate it was not professionally formatted.
+
+d. Language Style
+
+Generic greeting (“Dear Customer”) instead of the recipient’s name — a sign the attacker does not have personal account details.
+
+Lack of personalization is common in bulk phishing campaigns.
+
+3. Why This Matters
+Even when spelling is mostly correct, subtle domain misspellings and generic formatting are major phishing red flags.
+
+Attackers sometimes avoid obvious grammar mistakes to appear more credible, but brand impersonation errors still give them away.
+
+
+Conclusion:
+This phishing email avoids major spelling mistakes to maintain credibility but contains subtle errors — notably the typosquatted sender domain (paypa1.com) and lack of professional PayPal branding — that reveal it is not legitimate.
+

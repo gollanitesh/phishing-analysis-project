@@ -1,0 +1,56 @@
+Step 1 – Sample Collection & Initial Details
+Source:
+PhishTank (hxxps://phishtank.org) – public phishing verification database.
+
+Phishing URL:
+https://ulyspaiement.com/
+
+PhishTank Report ID:
+9178064
+
+Verification Status:
+✅ Verified as phishing by multiple users (Dev, darkmoon, Shazza, June).
+
+Date Submitted:
+Aug 8 2025 07:35 AM (UTC)
+Current Status: ONLINE at time of check (Aug 8 2025 08:06 AM UTC)
+
+Technical Details (from WHOIS & Network Information)
+IP Range / ASN: 223.29.226.0/24 (AS213441 SLAYER-AS, GB)
+
+Registrar: NameSilo, LLC (IANA ID 1479)
+
+Registrar WHOIS Server: whois.namesilo.com
+
+Registrar Abuse Contact: abuse@namesilo.com | +1 480-524-0066
+
+Registry Domain ID: 3008206674_DOMAIN_COM-VRSN
+
+Domain Creation Date: 2025-08-08 03:38:22 UTC
+
+Domain Updated Date: 2025-08-08 03:38:23 UTC
+
+Domain Expiry Date: 2026-08-08 03:38:22 UTC
+
+Domain Status: clientTransferProhibited
+
+Name Servers:
+
+ns1.dnsowl.com
+
+ns2.dnsowl.com
+
+ns3.dnsowl.com
+
+DNSSEC: Unsigned
+
+Immediate Suspicious Indicators
+Brand impersonation likely – URL name resembles a payment service but is unrecognizable.
+
+Domain age – registered on the same day as detection (less than 24 hours old).
+
+Privacy-protected registrar – often used to hide attacker identity.
+
+Generic hosting (SLAYER-AS, GB) – not associated with a legitimate payment processor.
+
+Confirmed phishing report – 100% community agreement on PhishTank.

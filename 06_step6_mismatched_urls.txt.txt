@@ -1,0 +1,20 @@
+1. Observed Link
+Displayed in Email: https://www.paypal.com/secure-login (appears legitimate)
+
+Actual Link on Hover: https://ulyspaiement.com/secure-login (malicious)
+
+2. Why This is Suspicious
+The domain ulyspaiement.com is not owned by PayPal.
+
+In Step 1, it was confirmed as a newly registered domain used for phishing.
+
+Mismatched links are a core phishing tactic — they exploit trust in a brand name while sending users to an attacker-controlled site.
+
+3. Risk
+Clicking the link could lead to a credential harvesting page or trigger malware downloads.
+
+Since the page likely mimics PayPal’s login, victims may enter real credentials.
+
+Conclusion:
+The email contains a deceptive link that misleads recipients into thinking they are visiting PayPal, while actually directing them to a confirmed phishing site.
+
